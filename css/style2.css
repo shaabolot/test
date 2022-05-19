@@ -1,0 +1,300 @@
+*{
+    margin: 0px;
+    padding: 0pc;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.container p{
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(223, 222, 221);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*! header */
+
+header{
+    width: 100%;
+    background-color:blueviolet;
+}
+
+.head__box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding: 10px ;
+}
+.h_l p{
+ color: #fff;
+}
+
+.h_text__color{
+    color: #FFB700;
+}
+
+/*! nav */
+
+nav{
+    box-shadow: 0 2px 40px black;
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav_bar img{
+    padding: 10px;
+}
+
+.nav_bar ul{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+
+.btn{
+    border: none;
+    background-color: blueviolet;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 6px;
+}
+/* .main_img{
+    border: 2px solid;
+    display: inline-block;
+    height: 220px;
+    width: 250px;
+    background-image: url(../img/img\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.main_img p{
+    color: white;
+  font-size: 30px;
+  margin-top: 80px;
+} */
+
+.main{
+    display: flex;
+}
+
+.main_block{
+    display: flex;
+    height: 700px;
+    width: 650px;
+    color: white;
+}
+
+.main_block1 div{
+    width: 300px;
+    height: 340px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.main_img{
+    background-image: url(../img/img\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+}
+
+.asd p{
+padding-top: 200px;
+}
+
+.main_img3{
+    background-image: url(../img/img2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.main_img2{
+    background-image: url(../img/img2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.main_img4{
+    background-image: url(../img/img\ \(1\).png);
+
+    background-position: center;
+    background-size: cover;
+}
+
+.main_block2{
+    width: 368px;
+    height: 700px;
+    background-image: url(../img/cow.png);
+    
+    background-position: center;
+    background-size: cover;
+}
+
+.main_box{
+    display: flex;
+}
+
+/* !main_block3 */
+
+.main_block3{
+    display: flex;
+    height: 400px;
+    width: 1020px;
+}
+
+
+.main_img6{
+    margin-top: 25px;
+    border: 2px solid black;
+    width: 626px;
+    background-image: url(../img/img\ \(1\).png);
+
+    background-position: center;
+    background-size: cover;
+}
+
+.main_img7{
+    border: 1px solid black;
+    width: 365px;
+    margin-left: 25px;
+    margin-top: 25px;
+    background-image: url(../img/img2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.abc{
+    color: white;
+    padding-top: 230px;
+}
+
+
+   
+/* !section_content */
+
+.section_content{
+    margin-top: 50px;
+    display: flex;
+    width: 1020px;
+}
+
+.section_content div{
+    width: 260px;
+}
+
+.section_content p{
+    font-size: 20px;
+}
+
+.section_content div img{
+    margin-left: 100px;
+}
+
+
+
+
+/*! zaivka */
+
+.zaivka{
+    height: 400px;
+   
+}
+
+.zaivka h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+.zaivka p{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 30px;
+}
+
+.input{
+    margin: 70px 0 0 280px;
+    margin-right: 400px;
+    height: 50px;
+    /* margin-left: 100px; */
+    width: 1020px;
+}
+
+.inp{
+    margin-right: 30px;
+    padding: 15px 10px;
+    width: 250px;
+    background-color: rgb(223, 218, 218);
+    font-size: 20px;
+}
+
+.inp_btn{
+    border: none;
+    padding: 20px 10px ;
+    border-radius: 6px;
+    background-color: blueviolet;
+    width: 200px;
+    font-size: 20px;
+    color: white;
+}
+
+/*! footer */
+
+footer{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(57, 56, 56);
+}
+
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(211, 205, 205);
+}
+
+.asd{
+    width: 500px;
+    height: 300px;
+    padding-left: 0px;
+}
+
+.footer_content p{
+    margin-bottom: 20px;
+    color: white;
+}
+
+.footer_content ul li {
+    list-style: none;
+    margin-bottom: 20px;
+
+}
+
+.footer_content p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
